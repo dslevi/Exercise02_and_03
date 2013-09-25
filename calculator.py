@@ -1,4 +1,5 @@
 import arithmetic
+import math
 
 def main():
     #import arithmetic.py
@@ -27,6 +28,8 @@ def main():
             answer = arithmetic.divide(x, y)
         elif tokens[0] == "square":
             answer = arithmetic.square(x)
+        elif tokens[0] == "sqroot":
+            answer = math.sqrt(x)
         elif tokens[0] == "cube":
             answer = arithmetic.cube(x)
         elif tokens[0] == "pow":
